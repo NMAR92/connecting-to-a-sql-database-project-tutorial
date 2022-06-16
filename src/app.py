@@ -40,3 +40,5 @@ cursor=conn.cursor()
 pd.read_sql("SELECT * FROM movies", conn)
 
 conn.close() """
+
+#git rm env.local -- (PARA SACAR EL .env si no ya lo push y luego lo queres sacar)
